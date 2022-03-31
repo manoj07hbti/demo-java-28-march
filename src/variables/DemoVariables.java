@@ -25,5 +25,7 @@ public class DemoVariables {
        double salary=56000.13;
        System.out.println("Printing salary: "+salary);
 
+       System.out.println("One line print " +name+" " + city+" " + age+" "+ marks+" " +price);
+
     }
 }
