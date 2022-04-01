@@ -6,26 +6,42 @@ public class DemoVariables {
 
         // SYNTAX:  DataType var_name= value;
 
-       System.out.println("Printing Variable values ");
+        System.out.println("Printing Variable values ");
 
-       String city="AGRA";
-       System.out.println("Printing city: " +city);
+        String city = "AGRA";
 
-       String name="Raj";
-       System.out.println("Printing name:" +name);
+        System.out.println("Printing city: " + city);
 
-       int age= 23;
-       System.out.println("Printing age: " +age);
-       int marks=75;
-       System.out.println("Printing marks: " +marks);
+        String name = "Raj";
+        System.out.println("Printing name:" + name);
+
+        int age = 23;
+        System.out.println("Printing age: " + age);
+        int marks = 75;
+        System.out.println("Printing marks: " + marks);
 
 
-       double price=25.3;
-       System.out.println("Printing price: " +price);
-       double salary=56000.13;
-       System.out.println("Printing salary: "+salary);
+        double price = 25.3;
+        System.out.println("Printing price: " + price);
+        double salary = 56000.13;
+        System.out.println("Printing salary: " + salary);
 
-       System.out.println("One line print " +name+" " + city+" " + age+" "+ marks+" " +price);
+        System.out.println("One line print " + name + " " + city + " " + age + " " + marks + " " + price);
+
+
+        // char datatype : Single A, B ,C,
+
+        // SYNTAX:  DataType var_name= value;
+
+        char mychar= 'A';
+
+        System.out.println("Printing char : "+mychar);
+
+        // boolean :
+
+        boolean flag=false;
+
+        System.out.println("Boolean value is "+flag);
 
     }
 }
