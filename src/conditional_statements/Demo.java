@@ -40,8 +40,12 @@ public class Demo {
         }
         else {
             System.out.println("You are NOT eligible for voting in Agra ...");
+
         }
 
+        if(age==21){
+
+        }
 
     }
 }
