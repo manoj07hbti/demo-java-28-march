@@ -6,7 +6,7 @@ public class Demo {
 
         int age =21;
 
-        if (age>18) {
+        if (age>18 & age<0 || age>18) {
 
             System.out.println("You are eligible for Voting ...");
         }
