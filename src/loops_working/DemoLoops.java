@@ -20,5 +20,9 @@ public class DemoLoops {
             System.out.println("Decrement For Loop :Hello: "+i);
         }
 
+        for (int j=0; j>=0; j++){
+            System.out.println("This loop is infinite "+j);
+        }
+
     }
 }
