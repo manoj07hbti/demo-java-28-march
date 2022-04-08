@@ -42,7 +42,7 @@ public class ANDOperator {
       // FALSE&FALSE= FALSE
         age=16;
         city="PUNE";
-        if(age>18 & city=="AGRA" ){
+        if(!(age>18) & city=="AGRA" ){
 
             System.out.println("You are eligible for voting in Agra..");
         }
