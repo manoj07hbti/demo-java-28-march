@@ -27,12 +27,17 @@ public class BookWithParamConstructor {
         System.out.println("Printing Writer Name: "+obj.writerName);
         System.out.println("Printing Pages : "+obj.pages);
         System.out.println("Printing Price : "+obj.price);
+        System.out.println("\n");
+        System.out.println("\n");
+
 
         BookWithParamConstructor obj2= new BookWithParamConstructor("Spring","Gosling",300,1000.5);
         System.out.println("Printing Name: "+obj2.name);
         System.out.println("Printing Writer Name: "+obj2.writerName);
         System.out.println("Printing Pages : "+obj2.pages);
         System.out.println("Printing Price : "+obj2.price);
+
+
 
     }
 
