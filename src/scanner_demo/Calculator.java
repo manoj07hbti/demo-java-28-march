@@ -15,9 +15,13 @@ public class Calculator {
         Scanner scanner1= new Scanner(System.in);
         String choice= scanner1.nextLine();
 
+        float result=a/b;
+        System.out.println("DIVIDE IS "+result);
+
         if(choice=="ADD" || choice.equals("ADD")){
           System.out.println("ADDITION of a and b is "+a+b);
         }
+
 
     }
 }
