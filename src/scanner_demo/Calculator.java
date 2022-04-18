@@ -19,7 +19,7 @@ public class Calculator {
         System.out.println("DIVIDE IS "+result);
 
         if(choice=="ADD" || choice.equals("ADD")){
-          System.out.println("ADDITION of a and b is "+a+b);
+          System.out.println("ADDITION of a and b is "+(a+b));
         }
 
 
