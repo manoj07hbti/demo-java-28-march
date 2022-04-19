@@ -15,8 +15,12 @@ public class Calculator {
     //Syntax : access_specifier return_type  method_name (parameter) {CODE}
 
    public void addition(){
-       int a=13;
-       int b=7;
+
+       Scanner scanner= new Scanner(System.in);
+       System.out.println("Please enter Value of a: ");
+       int a=scanner.nextInt();
+       System.out.println("Please enter Value of b: ");
+       int b=scanner.nextInt();
        int sum=a+b;
 
        System.out.println("Addition is :"+sum);
@@ -25,8 +29,11 @@ public class Calculator {
 
    public void subtraction(){
 
-       int a=10;
-       int b=7;
+       Scanner scanner= new Scanner(System.in);
+       System.out.println("Please enter Value of a: ");
+       int a=scanner.nextInt();
+       System.out.println("Please enter Value of b: ");
+       int b=scanner.nextInt();
        int sub=a-b;
 
        System.out.println("Subtraction is :"+sub);
@@ -37,21 +44,30 @@ public class Calculator {
 
     public static void main(String[] args) {
         //1 create Object
-
         Calculator obj= new Calculator();
-
-        // 2 Obj.mehtodName();
-
-
         Scanner scanner= new Scanner(System.in);
-        System.out.println("Please enter your choice : 1 for add, 2 sub, 3 for multiply and 4 for divide");
-        int choice= scanner.nextInt();
-        if(choice==1){
-            obj.addition();
+
+        String flag="Y";
+
+        while (flag.equals("Y")|| flag=="Y"){
+
+            System.out.println("Please enter your choice : 1 for add, 2 sub, 3 for multiply and 4 for divide");
+            int choice= scanner.nextInt();
+            if(choice==1){
+                obj.addition();
+            }
+            else  if (choice==2){
+                obj.subtraction();
+            }
+            Scanner loopscanner= new Scanner(System.in);
+            System.out.println("Please enter N to Exit or Y to continue ...");
+            flag= loopscanner.nextLine();
         }
-        else  if (choice==2){
-            obj.subtraction();
-        }
+
+
+
+
+
 
 
     }
