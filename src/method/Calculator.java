@@ -49,7 +49,7 @@ public class Calculator {
 
         String flag="Y";
 
-        while (flag.equals("Y")|| flag=="Y"){
+        while (flag.equals("Y")){
 
             System.out.println("Please enter your choice : 1 for add, 2 sub, 3 for multiply and 4 for divide");
             int choice= scanner.nextInt();
