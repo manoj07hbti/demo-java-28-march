@@ -12,6 +12,16 @@ public class CalcWithReturnType {
 
        return sum;
     }
+
+    public int subtraction(){
+
+        int a=4;
+        int b=7;
+
+        int sub=a-b;
+
+        return sub;
+    }
 // sub, mult, divide
 
     public static void main(String[] args) {
@@ -19,6 +29,7 @@ public class CalcWithReturnType {
 
        int result= obj.addition();
        System.out.println("Addition is : "+result);
+       result=obj.subtraction();
 
     }
 }
