@@ -20,7 +20,8 @@ public class Demo {
         cityList.add("Pune");  //2 index
         cityList.add("Jaipur");//3 index
         cityList.add("Mumbai");//4 index
-
+        cityList.add(33);
+        cityList.add(45.8);
         System.out.println("Printing 2 index element "+cityList.get(2));
         System.out.println("Printing 4 index element "+cityList.get(4));
         System.out.println("Printing 0 index element "+cityList.get(0));
