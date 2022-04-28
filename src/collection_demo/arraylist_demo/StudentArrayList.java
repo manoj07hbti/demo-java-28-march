@@ -16,7 +16,7 @@ public class StudentArrayList {
 
         Student student1= new Student(1,"Raj","CS");
         Student student2= new Student(2,"Rahul","IT");
-        Student student3= new Student(1,"Mukesh","CS");
+        Student student3= new Student(3,"Mukesh","CS");
 
         studentArrayList.add(student1);
         studentArrayList.add(student2);
@@ -40,6 +40,14 @@ public class StudentArrayList {
 
 
         }
+// Setter method usage :
+        for (Student var: studentArrayList){
+
+            var.setSection("IT");// changing section
+
+            System.out.println("AFTER SETTER METHOD Printing name :" +var.getName() + " Rollno: "+var.getRollno()+" Section:"+var.getSection());
+        }
+
 
     }
 
