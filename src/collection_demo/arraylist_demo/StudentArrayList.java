@@ -43,6 +43,10 @@ public class StudentArrayList {
 // Setter method usage :
         for (Student var: studentArrayList){
 
+            if(var.getName().equals("Rahul")){
+
+                var.setName("Rahul Kumar");
+            }
             var.setSection("IT");// changing section
 
             System.out.println("AFTER SETTER METHOD Printing name :" +var.getName() + " Rollno: "+var.getRollno()+" Section:"+var.getSection());
