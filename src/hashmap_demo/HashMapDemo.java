@@ -22,13 +22,25 @@ public class HashMapDemo {
         System.out.println("Get 3 key:  "+ map.get(3));
         System.out.println("Get 2 key:  "+ map.get(2));
 
+        for (Integer var : map.keySet() ){
+
+            System.out.println("Printing Integer Map Using Key in get method.."+map.get(var));
+        }
+
         HashMap<String , String> mapString= new HashMap<>();
 
         mapString.put("A","Agra");
         mapString.put("B","Pune");
+        mapString.put("C","Delhi");
 
         System.out.println("Printing city "+mapString.get("A"));
 
+       // keySet() // it will return all the key in HashSet form
+
+        for (String var : mapString.keySet() ){
+
+            System.out.println("Using Key in get method.."+mapString.get(var));
+        }
 
     }
 }

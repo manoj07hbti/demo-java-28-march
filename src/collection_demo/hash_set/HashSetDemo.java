@@ -1,6 +1,7 @@
 package collection_demo.hash_set;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class HashSetDemo {
 
@@ -9,6 +10,11 @@ public class HashSetDemo {
         // HashSet <Datatype > objName= new HashSet<>();
 
         HashSet <String> course= new HashSet<>();
+
+        LinkedHashSet<String> linkedHashSet= new LinkedHashSet<>();
+        linkedHashSet.add("A");
+        linkedHashSet.add("B");
+
         course.add("Java");
         course.add("Java");
         course.add("Java8");
