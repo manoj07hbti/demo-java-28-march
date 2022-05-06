@@ -12,6 +12,13 @@ public abstract class DemoAbstraction {
     // can we object of abstract class ? NO :  because there is no method implementation so if we try to call abstract
      //  method then JVM will not be able to find the code
 
+    // we can have normal method as well in abstract class
+
+    public void m2(){
+
+        System.out.println("This is Normal method M2 of Abstract Class ....");
+    }
+
     public static void main(String[] args) {
 
         /*DemoAbstraction obj= new DemoAbstraction();

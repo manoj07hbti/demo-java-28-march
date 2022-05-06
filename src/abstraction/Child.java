@@ -11,5 +11,6 @@ public class Child extends DemoAbstraction {
 
         Child obj= new Child();
         obj.m1();
+        obj.m2();
     }
 }
